@@ -1,0 +1,36 @@
+Umuzi assignment: Predicting salary differences
+
+Due: TBD
+
+Submission: Commit your notebook changes to GitHub. Once you are done, create an html report from the notebook. The last GitHub commit done before 12pm will be marked.
+
+To complete this assignment, you should go through the following materials:
+https://github.com/justmarkham/DAT4/blob/master/notebooks/08_linear_regression.ipynb
+http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html
+
+Crash Course Statistics: Machine Learning & Artificial Intelligence
+Crash Course Statistics: Correlation Doesn’t Equal Causation
+
+
+In the next series of challenges, we will predict employee salaries from different employee characteristics (or features).
+
+Import the data salary.csv to a Jupyter Notebook. A description of the variables is given on Sheet 2 of the csv file. Answer the following questions:
+
+We are going to use a simple supervised learning technique: linear regression. We want to build a simple model to determine how well Years Worked predicts an employee’s salary. 
+
+a)	Run a simple linear regression for Salary with one predictor variable: Years Worked
+i.	What percentage of the variance in employees’ salaries is accounted for by the number of years they have worked? 
+ii.	Does the model significantly predict the dependent variable? Report the amount of variance explained (R2) and significance value (p) to support your answer.
+iii.	Report and interpret the standard error of the estimate. (Hint: Compare the standard error of the estimate to the standard deviation for Salary, which you would have calculated in Question 1.a)). 
+
+b)	Examine the output from the Coefficients table:
+i.	What does the unstandardized coefficient (B) tell you about the relationship between Years Worked and Salary?
+ii.	Compare the standardised coefficient (Beta) for Years Worked to the Pearson’s (zero-order) correlation coefficient from question 1.c). What do you notice? Explain why this is so. 
+
+iii.	Calculate the expected salary for someone who graduated 12 years ago.
+iv.	Calculate the expected salary for someone who graduated 80 years ago. Are there any problems with this prediction? If so, what are they?
+
+c)	We have only looked at the number of years and employee has worked. What are employee characteristics might influence their salary?
+
+
+
