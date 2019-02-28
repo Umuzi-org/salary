@@ -1,5 +1,5 @@
 # Umuzi assignment 1: Predicting salaries differences
-## Summary statistics
+# Summary statistics
 
 ## Submission:
 Fork this repo to your Github account. Create a notebook and commit your notebook changes to Github.
@@ -7,10 +7,12 @@ Once you are done, create an html report from the notebook.
 
 ## To complete this assignment, you should watch the following videos:
 - Crash Course Statistics: Measures of Spread, https://youtu.be/R4yfNi_8Kqw
+
 - Crash Course Statistics: Plots, Outliers and Justin Timberlake, https://youtu.be/HMkllhBI91Y
+
 - Crash Course Statistics: Correlation Doesn’t Equal Causation, https://youtu.be/GtV-VYdNt_g
 
-##Instructions:
+## Instructions:
 In the next series of challenges, we will predict employee salaries from different employee characteristics (or features). We ask employees working in four different fields to state their salary and some background information.
 
 Import the data salary.csv to a Jupyter Notebook. You will need the packages matplotlib, pandas and statsmodels. A description of the variables is given in Salary Metadata.

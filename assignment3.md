@@ -1,5 +1,5 @@
 # Umuzi assignment 3: Predicting salary differences
-## Multiple Linear Regression
+# Multiple Linear Regression
 
 ## Submission:
 Create a notebook and commit your notebook changes to Github.
@@ -7,10 +7,12 @@ Once you are done, create an html report from the notebook.
 
 ## To complete this assignment, you should go through the following materials:
 Robust One-Hot Encoding in Python, https://blog.cambridgespark.com/robust-one-hot-encoding-in-python-3e29bfcec77e
+
 Emulating R Regression Plots in Python, https://medium.com/@emredjan/emulating-r-regression-plots-in-python-43741952c034
+
 Statsmodels Regression Plot, https://www.statsmodels.org/dev/examples/notebooks/generated/regression_plots.html
 
-##Instructions:
+## Instructions:
 In the next series of challenges, we will predict employee salaries from different employee characteristics (or features).
 Import the data salary.csv to a Jupyter Notebook. A description of the variables is given in the metadata. You will need the packages `matplotlib` / `seaborn`, `pandas` and `statsmodels`.
 

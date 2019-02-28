@@ -1,20 +1,22 @@
 # Umuzi assignment 2: Predicting salary differences
-## Simple Linear Regression
+# Simple Linear Regression
 
 ## Submission:
- Create a notebook and commit your notebook changes to Github.
+Create a notebook and commit your notebook changes to Github.
 Once you are done, create an html report from the notebook.
 
 ## To complete this assignment, you should go through the following materials:
 Introduction to Linear Regression, https://github.com/justmarkham/DAT4/blob/master/notebooks/08_linear_regression.ipynb
+
 Simple and Multiple Linear Regression in Python, https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
 
 
 Crash Course Statistics: Regression, https://youtu.be/WWqE7YHR4Jc
+
 Khan Academy Engageny Algebra Topic D, Lessons 14 – 18 (Modelling relationships with a line & Residuals):
 https://www.khanacademy.org/math/engageny-alg-1/alg1-2/alg1-2d-modeling-relationships-line/v/fitting-a-line-to-data
 
-##Instructions:
+## Instructions:
 In the next series of challenges, we will predict employee salaries from different employee characteristics (or features).
 We are going to use a simple supervised learning technique: linear regression. We want to build a simple model to determine how well Years Worked predicts an employee’s salary.
 Import the data salary.csv to a Jupyter Notebook. A description of the variables is given in Salary Metadata. You will need the packages matplotlib, pandas and statsmodels.
