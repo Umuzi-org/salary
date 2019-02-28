@@ -20,14 +20,19 @@ We are going to use a simple supervised learning technique: linear regression. W
 Import the data salary.csv to a Jupyter Notebook. A description of the variables is given in Salary Metadata. You will need the packages matplotlib, pandas and statsmodels.
 
 ## Answer the following questions:
-a)	Using the `statsmodels` package, run a simple linear regression for Salary with one predictor variable: Years Worked
+a)	Using the `statsmodels` package, run a simple linear regression for Salary with one predictor variable: Years Worked.
+
 i.	Does the model significantly predict the dependent variable? Report the amount of variance explained (R^2) and significance value (p) to support your answer.
+
 ii.	What percentage of the variance in employees’ salaries is accounted for by the number of years they have worked?
 
 b)
 i.	What does the unstandardized coefficient (B or 'coef' in statsmodels) tell you about the relationship between Years Worked and Salary?
+
 ii.	What do the 95% confidence intervals [0.025, 0.975] mean?
+
 iii.	Calculate the expected salary for someone with 12 years’ work experience.
+
 iv.	Calculate the expected salary for someone with 80 years’ work experience. Are there any problems with this prediction? If so, what are they?
 
 c)	We have only looked at the number of years an employee has worked. What other employee characteristics might influence their salary?
