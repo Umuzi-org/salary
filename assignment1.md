@@ -31,6 +31,6 @@ Import the data salary.csv to a Jupyter Notebook. You will need the packages `ma
   * What is the relationship between Years Worked and Salary?
   * Describe any patterns in the scatterplot.
   * Do you notice any unusual/extreme values that do not fit the general trend? If you see any unusual values, briefly describe them (Who are they? In what way are they different?)
-13.	Using the pearsonr function from the scipy.stats package, calculate the Pearson correlation coefficient (and its corresponding p value) to determine the nature of the relationship between Years Worked and Salary. See help(pearsonr) for help on this function.
+13.	Using the `pearsonr` function from the scipy.stats package, calculate the Pearson correlation coefficient (and its corresponding p value) to determine the nature of the relationship between Years Worked and Salary. See `help(pearsonr)` for help on this function.
   * Interpret the size and direction of the correlation statistic.
   * Is the relationship statistically significant? Report the appropriate statistic(s) to support your answer.

@@ -6,11 +6,19 @@ Create a notebook and commit your notebook changes to Github.
 Once you are done, create an html report from the notebook.
 
 ## To complete this assignment, you should go through the following materials:
-- Introduction to Linear Regression, https://github.com/justmarkham/DAT4/blob/master/notebooks/08_linear_regression.ipynb
-- Simple and Multiple Linear Regression in Python, https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
-- Crash Course Statistics: Regression, https://youtu.be/WWqE7YHR4Jc
-- Khan Academy Engageny Algebra Topic D, Lessons 14 – 18 (Modelling relationships with a line & Residuals):
-https://www.khanacademy.org/math/engageny-alg-1/alg1-2/alg1-2d-modeling-relationships-line/v/fitting-a-line-to-data
+
+### Regression
+- [Introduction to Linear Regression](https://github.com/justmarkham/DAT4/blob/master/notebooks/08_linear_regression.ipynb)
+- [Simple and Multiple Linear Regression in Python](https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9)
+- [Crash Course Statistics: Regression](https://youtu.be/WWqE7YHR4Jc)
+- [Khan Academy Engageny Algebra Topic D, Lessons 14 – 18 (Modelling relationships with a line & Residuals)](https://www.khanacademy.org/math/engageny-alg-1/alg1-2/alg1-2d-modeling-relationships-line/v/fitting-a-line-to-data)
+
+### Overfitting and underfitting
+- [Coursera  Video](https://www.coursera.org/lecture/python-machine-learning/overfitting-and-underfitting-fVStr)
+
+### Test/ training splits and cross-validation
+- [Test/Train Splits and Crossvalidation in Python Tutorial](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6)
+- [Google ML Training and Test Sets Video](https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture)
 
 ## Instructions:
 In the next series of challenges, we will predict employee salaries from different employee characteristics (or features).
@@ -32,5 +40,3 @@ Split your data into a training and test set. Train your model using the trainin
 Now fit your model to your test set.
 
 7. How does your model compare when running it on the test set - what is the difference in the Root Mean Square Error (RMSE) between the training and test sets?
-
-[More on Test/Train Splits and Crossvalidation](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6)
