@@ -20,12 +20,12 @@ Once you are done, create an html report from the notebook.
 - [Test/Train Splits and Crossvalidation in Python Tutorial](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6)
 - [Google ML Training and Test Sets Video](https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture)
 
-## Instructions:
+## Instructions
 In the next series of challenges, we will predict employee salaries from different employee characteristics (or features).
 We are going to use a simple supervised learning technique: linear regression. We want to build a simple model to determine how well Years Worked predicts an employee’s salary.
-Import the data salary.csv to a Jupyter Notebook. A description of the variables is given in Salary Metadata. You will need the packages matplotlib, pandas and statsmodels.
+Import the data salary.csv to a Jupyter Notebook. A description of the variables is given in Salary Metadata. You will need the packages `matplotlib`, `pandas` and `statsmodels`.
 
-## Answer the following questions:
+### Answer the following questions
 Split your data into a training and test set. Train your model using the training set and answer the following questions:
 
 1.	Using the `statsmodels` package, run a simple linear regression for Salary with one predictor variable: Years Worked.
@@ -37,6 +37,6 @@ Split your data into a training and test set. Train your model using the trainin
 5.	Calculate the expected salary for someone with 80 years’ work experience. Are there any problems with this prediction? If so, what are they?
 6.	We have only looked at the number of years an employee has worked. What other employee characteristics might influence their salary?
 
-Now fit your model to your test set.
+Now fit your model to your test set. DO NOT BUILD A NEW MODEL ON THE TEST SET! Simply use your existing, model, to predict salaries in the test set.
 
 7. How does your model compare when running it on the test set - what is the difference in the Root Mean Square Error (RMSE) between the training and test sets?
